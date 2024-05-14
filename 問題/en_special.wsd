@@ -1,0 +1,104 @@
+@startuml En07_class
+
+title 問題7 の クラス図
+
+class Program {
+  {static} + public static void Main(string[] args)
+}
+
+class CakeVendingMachine {
+  + public string Buy(int number, int money)
+}
+
+Program .right.> CakeVendingMachine
+
+@enduml
+
+@startuml En08_class
+
+title 問題8 の クラス図
+
+class Program {
+  {static} + public static void Main(string[] args)
+}
+
+class CakeVendingMachine {
+  + public int Money
+  + public string Buy(int number)
+}
+
+Program .right.> CakeVendingMachine
+
+@enduml
+
+@startuml En09_class
+
+title 問題9 の クラス図
+
+class Program {
+  {static} + public static void Main(string[] args)
+}
+
+class CakeVendingMachine {
+  - private int money
+  + public void AddMoney(int money)
+  + public void ShowDeposit()
+  + public string Buy(int number)
+}
+
+Program .right.> CakeVendingMachine
+
+@enduml
+
+@startuml En10_class
+
+title 問題10 の クラス図
+
+class Program {
+  {static} + public static void Main(string[] args)
+}
+
+abstract class VendingMachine {
+  + private int money
+  + public void AddMoney(int money)
+  + public void ShowDeposit()
+  + public string Buy(int number)
+  # protected abstract List<string> GetItems()
+}
+
+class CakeVendingMachine {
+  # protected override List<string> GetItems()
+}
+
+Program .right.> CakeVendingMachine
+VendingMachine <|-down- CakeVendingMachine
+
+@enduml
+
+@startuml En11_class
+
+title 問題11 の クラス図
+
+class Program {
+  {static} + public static void Main(string[] args)
+}
+
+abstract class VendingMachine {
+  + private int money
+  # protected string name
+  + public void AddMoney(int money)
+  + public void ShowDeposit()
+  + public string Buy(int number)
+  + public void ShowName()
+  # protected abstract List<string> GetItems()
+}
+
+class CakeVendingMachine {
+  # public CakeVendingMachine()
+  # protected override List<string> GetItems()
+}
+
+Program .right.> CakeVendingMachine
+VendingMachine <|-down- CakeVendingMachine
+
+@enduml
