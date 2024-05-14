@@ -10,4 +10,6 @@
 
 解答プログラムは、こちらを参照してください。
 
-また、以下のリンクからダウンロードができます。
+また、以下のリンクから全てのファイルをダウンロードができます。
+
+[ダウンロード](https://github.com/hiurawork/CakeVendingMachineProgram/archive/refs/heads/master.zip)
