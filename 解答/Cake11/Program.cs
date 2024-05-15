@@ -1,12 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Cake10
+namespace Cake11
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             CakeVendingMachine cakeVendingMachine = new CakeVendingMachine();
+            cakeVendingMachine.ShowName();
+
             bool loopFlag = true;
             while (loopFlag == true)
             {
