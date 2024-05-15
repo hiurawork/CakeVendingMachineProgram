@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake10", "Cake10\Cake10.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake11", "Cake11\Cake11.csproj", "{8E088F90-6C7E-4513-8A29-5FE1E714EA0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake12", "Cake12\Cake12.csproj", "{2A1A122E-0A7B-47C4-80A8-274299C4C082}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{8E088F90-6C7E-4513-8A29-5FE1E714EA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E088F90-6C7E-4513-8A29-5FE1E714EA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E088F90-6C7E-4513-8A29-5FE1E714EA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A1A122E-0A7B-47C4-80A8-274299C4C082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A1A122E-0A7B-47C4-80A8-274299C4C082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A1A122E-0A7B-47C4-80A8-274299C4C082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A1A122E-0A7B-47C4-80A8-274299C4C082}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

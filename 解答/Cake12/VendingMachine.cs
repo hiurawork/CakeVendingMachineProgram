@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Cake10
+namespace Cake12
 {
     internal abstract class VendingMachine
     {
+        protected string name;
+
         private int money;
 
         public void AddMoney(int money)
@@ -44,6 +46,11 @@ namespace Cake10
             }
 
             return cake;
+        }
+
+        public void ShowName()
+        {
+            Console.WriteLine("これは" + this.name + "です。");
         }
 
         protected abstract List<string> GetItems();

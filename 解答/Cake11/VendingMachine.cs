@@ -27,21 +27,21 @@ namespace Cake11
             {
                 if (500 <= money)
                 {
-                    cake = items[1];
+                    cake = items[0];
                 }
             }
             else if (number == 2)
             {
                 if (400 <= money)
                 {
-                    cake = items[2];
+                    cake = items[1];
                 }
             }
             else if (number == 3)
             {
                 if (400 <= money)
                 {
-                    cake = items[3];
+                    cake = items[2];
                 }
             }
 
